@@ -1,0 +1,140 @@
+<ukg-data-table-container>
+    <ukg-data-table id="Example2" indented-column="2" indentation-scaler="1">
+      <table role="table">
+        <thead>
+          <tr>
+            <th>
+              <span class="hidden-label">avatar</span>
+            </th>
+            <th>Column A</th>
+            <th>Column B</th>
+            <th>Column C</th>
+            <th>Column D</th>
+            <th>Column E</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="ukg-table-row-expandable Example2-1">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td colSpan="5">
+              <ukg-button
+                class="Example2-1-button"
+                icon-only="true"
+                (click)="toggleSelect('Example2-1-button')"
+                parent-icon="expand-more"
+              ></ukg-button>
+              colspan Data A - level 1
+            </td>
+          </tr>
+          <tr class="Example2-1-1 ukg-table-row-expandable">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button
+                class="Example2-1-1-button"
+                icon-only="true"
+                (click)="toggleSelect('Example2-1-1-button')"
+                parent-icon="expand-more"
+              ></ukg-button>
+              Data A - level 2
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-1-1-1">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button class="Example2-1-1-1-button" icon-only="true" disabled></ukg-button>
+              Data A - level 3
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-1-1-2">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button class="Example2-1-1-2-button" icon-only="true" disabled></ukg-button>
+              Data A - level 3
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-2 ukg-table-row-expandable">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button
+                class="Example2-2-button"
+                icon-only="true"
+                (click)="toggleSelect('Example2-2-button')"
+                parent-icon="expand-more"
+              ></ukg-button>
+              Data A - level 1
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-2-1">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button class="Example2-2-1-button" icon-only="true" disabled></ukg-button>
+              Data A - level 3
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-3 ukg-table-row-expandable">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button
+                class="Example2-3-button"
+                icon-only="true"
+                (click)="toggleSelect('Example2-3-button')"
+                parent-icon="expand-more"
+              ></ukg-button>
+              Data A - level 1
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+          <tr class="Example2-3-1">
+            <td class="ukg-table-column-avatar">
+              <ukg-avatar aria-label="avatar" size="s" src="https://i.imgur.com/a8MtmkV.jpg"></ukg-avatar>
+            </td>
+            <td>
+              <ukg-button class="Example2-3-1-button" icon-only="true" disabled></ukg-button>
+              Data A - level 3
+            </td>
+            <td>Data B</td>
+            <td>Data C</td>
+            <td>Data D</td>
+            <td>Data E</td>
+          </tr>
+        </tbody>
+      </table>
+    </ukg-data-table>
+  </ukg-data-table-container>
